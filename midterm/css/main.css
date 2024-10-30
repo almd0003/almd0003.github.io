@@ -28,7 +28,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     color: white;
-    background-image: url("/images/lone-starfish-wide.jpg");
+    background-image: url("https://almd0003.github.io/midterm/images/lone-starfish-wide.jpg");
     /* background-image: url("https://www.thesprucepets.com/thmb/FFphtV0Joufa9eqK5kjDqAU24ew=/2048x0/filters:no_upscale():strip_icc()/GettyImages-489010151-5b7b277f46e0fb005066d0a0.jpg"); */
     background-position: 50% 70%;
   }
