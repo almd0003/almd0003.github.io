@@ -1,10 +1,24 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #d4e9e7;
+    background-color:  #aad4cf;
     padding-left: 210px;
     padding-right: 230px;
     padding-bottom: 50px;
 
+}
+
+h1{
+  font-size: 4.5rem;
+}
+
+#content{
+    background-color: #d4e9e7;
+}
+
+.padding{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-bottom: 1.5%;
 }
 
 
@@ -14,7 +28,8 @@ header{
     text-align: center;
     text-transform: uppercase;
     color: white;
-    background-image: url("https://www.thesprucepets.com/thmb/FFphtV0Joufa9eqK5kjDqAU24ew=/2048x0/filters:no_upscale():strip_icc()/GettyImages-489010151-5b7b277f46e0fb005066d0a0.jpg");
+    background-image: url("/images/lone-starfish-wide.jpg");
+    /* background-image: url("https://www.thesprucepets.com/thmb/FFphtV0Joufa9eqK5kjDqAU24ew=/2048x0/filters:no_upscale():strip_icc()/GettyImages-489010151-5b7b277f46e0fb005066d0a0.jpg"); */
     background-position: 50% 70%;
   }
 
@@ -22,17 +37,66 @@ header{
     float: left;
   }
 
-nav li{
+  #starfish3{
+    padding: 1.5%;
+  }
+
+/* nav li{
     display: inline;
-    text-align: right;
 }
 
+nav{
+      justify-items: center;
+}
 
-  form{
+nav li a{
+   display: block; 
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+} */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 15px;
+  padding-left: 137px;
+  padding-right: 137px;
+  text-decoration: none;
+  border-right: 1px solid black;
+
+}
+
+#lastelem{
+  border-right: initial;
+}
+
+  #contactform{
     width: 800px;
     height: 350px;
     border: 2px solid black;
     padding: 20px;
     margin: 20px;
+  }
+
+  form{
+    padding: 10px;
+  }
+
+  footer{
+padding-left: 900px;
   }
 
