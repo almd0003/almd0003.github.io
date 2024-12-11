@@ -1,160 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link href="css/reset.css" rel="stylesheet">-->
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--<link href="css/reset.css" rel="stylesheet">-->
+      <link href="css/main.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <title>Final</title>
-</head>
-<body>
+      <title>Final</title>
+  </head>
+  <body>
 
 
-    <div class="navBar">
-      <div class="logo">
-        <img src="/images/logo.png" alt="logo">
+    <div id="navBar-bg">
+      <div id="navBar">
+        <div id="logo-div">
+          <img id="logo" src="/images/logo.png" alt="logo">
+        </div>
+        <ul>
+          <li><a class="active">Home</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div id="search-bar">
+            <input type="text" placeholder="Search">
+            <input type="image" src="/images/magnifying-glass_png.webp">
+          </div>
+        </ul>
       </div>
-      <ul>
-        <li><a class="active">Home</a></li>
-        
-        <li><a href="#aboutUs">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <input type="text" placeholder="Search">
-      </ul>
     </div>
 
+    
     <header>
-
+      <div class="overlay-box">
         <h1>Welcome to Three Star Media</h1>
-  
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, sint pariatur? Officiis, omnis neque. Consectetur ullam culpa iure neque aliquam aperiam eius. Impedit reiciendis at unde hic vel quam praesentium?</p>
-          <div class="overlay-box"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, sint pariatur? Officiis, omnis neque. Consectetur ullam culpa iure neque aliquam aperiam eius. Impedit reiciendis at unde hic vel quam praesentium?</p>
+        <br>
+        <button type="button">
+          <p>Connect with us</p>
+          <img src="/images/playbutton-black.webp">
+        </button>
+      </div>
+    </header>
+    
 
-    <button type="button">Connect with us</button>
-</header>
-
-  <div class="aboutUs">
-    <img src="/images/about-us.jpg" alt="aboutus">
-    <h2>About Us</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi explicabo qui cumque reprehenderit facilis nihil veritatis iste ullam, rerum dolores culpa consequuntur ducimus? Optio facilis ad minus, suscipit incidunt non!</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi explicabo qui cumque reprehenderit facilis nihil veritatis iste ullam, rerum dolores culpa consequuntur ducimus? Optio facilis ad minus, suscipit incidunt non!</p>
+    <div class="aboutUs">
+      <img src="/images/about-us.jpg" alt="aboutus">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi explicabo qui cumque reprehenderit facilis nihil veritatis iste ullam, rerum dolores culpa consequuntur ducimus? Optio facilis ad minus, suscipit incidunt non!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi explicabo qui cumque reprehenderit facilis nihil veritatis iste ullam, rerum dolores culpa consequuntur ducimus? Optio facilis ad minus, suscipit incidunt non!</p>
     </div>
 
+    <br><br>
     <h2>Our Services</h2>
 
-  <div class="box 1">
-    <img src="/images/digital.jpg" alt="digital transformation">
-    <h3>Digital Transformation</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
-    <button type="button">Digital Plans</button>
-    </div>
-    
-  <div class="box 2">
-    <img src="/images/marketing.jpg" alt="marketing">
-    <h3>Marketing</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
-    <button type="button">Marketing Plans</button>
-    </div>
-
-  <div class="box 3">
-    <img src="/images/video.jpg" alt="video">
-    <h3>Video Production</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
-    <button type="button">Video Plans</button>
-    </div>
-
-  <div class="box 4">
-    <img src="/images/web.jpg" alt="web">
-    <h3>Web Development</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
-    <button type="button">Web Plans</button>
-    </div>
-
-  <div class="box 5">
-    <img src="/images/print.jpg" alt="print">
-    <h3>Print</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
-    <button type="button">Print Plans</button>
-    </div>
-
-
-  <div class="ourVision">
-    <h3>Our Vision</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
-    <button type="button">Learn More</button>
-  </div>
-
-  <div class="johndoe">
-    <h2>Our Team</h2>
-    <img src="/images/john.jpg" alt="john">
-    <h3>John Doe</h3>
-    <p><strong>CEO and Co-Owner</strong></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto accusantium sint quibusdam reprehenderit corrupti provident et assumenda? Placeat assumenda expedita mollitia laborum voluptatem ducimus consequatur maiores at praesentium repellat?</p>
-  </div>
-
-  <div class="bobrite">
-    <h3>Bob Rite</h3>
-    <img src="/images/bob.jpg" alt="bob">
-    <p><strong>CFO and Co-Owner</strong></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto accusantium sint quibusdam reprehenderit corrupti provident et assumenda? Placeat assumenda expedita mollitia laborum voluptatem ducimus consequatur maiores at praesentium repellat?</p>
-  </div>
-
-    <h2>Contact Us</h2>
-    <h3>Send us a message!</h3>
-
-    <div id="contactform">
-        <form action="index.html" method="post">
-          <label for="fullname">Full Name:</label> <br>
-          <input id="fullname" style="width:700px;" type="text" name="fullname"> <br>
-        </form>
-  
-  
-        <form action="index.html" method="post">
-          <label for="email">Email:</label> <br>
-          <input id="email" style="width:700px;" type="email" name="email"> <br>
-        </form>
-  
-  
-          <form action="index.html" method="post">
-            <label for="yourMessage">Your Message:</label> <br>
-            <input id="yourMessage" style="width:700px; height:75px;"  type="text" name="yourMessage">
-            </form>
-
-            <button type="submit">Send</button>
-
+    <div id="services">
+      <div class="box 1">
+        <img src="/images/digital.jpg" alt="digital transformation">
+        <br>
+        <h3>Digital Transformation</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
+        <button type="button">
+          <p>Digital Plans</p>
+          <img src="/images/playbutton-white.webp">
+        </button>
+      </div>
+        
+      <div class="box 2">
+        <img src="/images/marketing.jpg" alt="marketing">
+        <br>
+        <h3>Marketing</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
+        <button type="button">
+          <p>Marketing Plans</p>
+          <img src="/images/playbutton-white.webp">
+        </button>
       </div>
 
-           
-    <h2>Hours of Operation</h2>
+      <div class="box 3">
+        <img src="/images/video.jpg" alt="video">
+        <br>
+        <h3>Video Production</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
+        <button type="button">
+          <p>Video Plans</p>
+          <img src="/images/playbutton-white.webp">
+        </button>
+      </div>
 
-    <div class="bordered-table">
-    <table class="bordered-table">
-    <tr>
-        <th>Days</th>
-        <th>Hours</th>
-    </tr>
-    <tr>
-        <td>Monday-Friday</td>
-        <td>Saturday-Sunday</td>
-    </tr>
-    <tr>
-        <td>9 AM - 6 PM</td>
-        <td>Closed</td>
-    </tr>
-    </table>
-  </div>
+      <div class="box 4">
+        <img src="/images/web.jpg" alt="web">
+        <br>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
+        <button type="button">
+          <p>Web Plans</p>
+          <img src="/images/playbutton-white.webp">
+        </button>
+      </div>
 
-    <h2>Location</h2>
-    <img id="map" src="images/map.png" alt="ottawa map" width="100%" />
+      <div class="box 5">
+        <img src="/images/print.jpg" alt="print">
+        <br>
+        <h3>Print</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
+        <button type="button">
+          <p>Print Plans</p>
+          <img src="/images/playbutton-white.webp">
+        </button>
+      </div>
+    </div>
 
-    <footer>&copy; Copyright Three Star Media, 2024<br>
+    <br>
+
+    <div class="ourVision">
+      <h3>Our Vision</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate minima quo ullam quidem iusto rem ducimus, neque, odio nulla ex corrupti voluptatem enim officiis voluptatibus non. Voluptates, praesentium veniam?</p>
+      <button type="button">
+        <p>Learn More</p>
+        <img src="/images/playbutton-white.webp">
+      </button>
+    </div>
+
+    <br><br>
+
+    <h2>Our Team</h2>
+    <div id="johndoe" class="team-member">
+      <img src="/images/john.jpg" alt="john">
+      <h3>John Doe</h3>
+      <p><strong>CEO and Co-Owner</strong></p>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto accusantium sint quibusdam reprehenderit corrupti provident et assumenda? Placeat assumenda expedita mollitia laborum voluptatem ducimus consequatur maiores at praesentium repellat?</p>
+    </div>
+
+    <div id="bobrite" class="team-member">
+      <img src="/images/bob.jpg" alt="bob">
+      <h3>Bob Rite</h3>
+      <p><strong>CFO and Co-Owner</strong></p>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iusto accusantium sint quibusdam reprehenderit corrupti provident et assumenda? Placeat assumenda expedita mollitia laborum voluptatem ducimus consequatur maiores at praesentium repellat?</p>
+    </div>
+
+    <br><br>
+
+    <h2>Contact Us</h2>
+  
+    <div id="contactform">
+      <h3>Send us a message!</h3>
+
+      <form action="index.html" method="post">
+        <label for="fullname">Full Name:</label> <br>
+        <input id="fullname" type="text" name="fullname"> <br>
+      </form>
+
+      <br>
+
+      <form action="index.html" method="post">
+        <label for="email">Email:</label> <br>
+        <input id="email" type="email" name="email"> <br>
+      </form>
+
+      <br>
+
+      <form action="index.html" method="post">
+        <label for="yourMessage">Your Message:</label> <br>
+        <input id="yourMessage" type="text" name="yourMessage">
+      </form>
+
+      <br>
+      
+      <button type="submit">Send</button>
+    </div>
+
+            
+    <div id="hours-of-operation">
+      <h2>Hours of Operation</h2>
+      <table class="bordered-table">
+        <tr>
+            <th>Days</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td>Monday-Friday</td>
+            <td>9 AM - 6 PM</td>
+        </tr>
+        <tr>
+            <td>Saturday-Sunday</td>
+            <td>Closed</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="location">
+      <h2>Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89726.36301936615!2d-75.82540704179691!3d45.34984490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1733889969093!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>&copy; Copyright Three Star Media, 2024<br><br>
     All images are taken from <href>Unsplash</href></footer>
 
-</body>
+  </body>
 </html>
